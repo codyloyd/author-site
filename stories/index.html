@@ -1,0 +1,45 @@
+---
+title: Our Stories
+layout: base.html
+permalink: /stories/
+---
+
+<style>
+  .story-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+  }
+  a {
+    text-decoration: none;
+    color: var(--main-text-color);
+    width: 100%;
+  }
+  h2 {
+    margin: 0;
+  }
+  p {
+    margin: 0;
+    font-size: 1rem;
+    color: var(--secondary-text-color);
+  }
+  li {
+    margin-bottom: 32px;
+  }
+
+</style>
+<ul class="story-list">
+  {% for story in collections.stories %}
+    <li>
+      <a href="{{ story.url }}">
+        {% if story.data.coverImage %}
+          <img src="{{ story.data.coverImage }}" alt="{{ story.data.title }} Cover" style="max-width: 200px; height: auto;">
+        {% endif %}
+        <h2>{{ story.data.title }}</h2>
+        <p class="read-more">Read More</p>
+      </a>
+    </li>
+  {% endfor %}
+</ul>

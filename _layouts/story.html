@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cody Loyd - {{ title }}</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        /* can do custom styles here to keep things scoped */
+        main {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        article img {
+            display: block;
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+        h1 {
+            color: var(--white);
+            font-weight: 200;
+            font-size: 3rem;
+            font-variant: small-caps;
+            letter-spacing: .2ch;
+            margin: 48px 0 8px;
+            border-bottom: 1px solid var(--border-color);
+        }
+        .subtitle {
+            font-size: 1rem;
+            margin-top: 32px;
+            font-style: italic;
+            color: var(--secondary-text-color);
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    {% include "header.njk" %}
+    <main>
+        <article>
+            {% if coverImage %}
+              <img src="{{ coverImage }}" alt="{{ title }} Cover">
+            {% endif %}
+            <h1>{{ title }}</h1>
+            <div class="story-content">
+                {{ content }}
+            </div>
+            <p class="subtitle">Published by Cody Loyd on: {{ date | readableDate }}</p>
+        </article>
+    </main>
+    {% include "footer.njk" %}
+</body>
+</html>

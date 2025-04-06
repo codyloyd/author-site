@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Stories</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <style>
+  #main-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 800px;
+
+    img {
+      height: 300px;
+    }
+    /* Dark mode */
+    @media (prefers-color-scheme: dark) {
+      img {
+        filter: invert(90%);
+      }
+    }
+
+    nav {
+      display: flex;
+      gap: 20px;
+      margin-left: auto;
+      padding-right: 32px;
+    }
+
+    nav a {
+      text-decoration: none;
+      font-size: 1.5rem;
+      color: var(--main-text-color)l;
+    }
+
+    nav a:hover {
+      color: var(--main-text-theme-color)
+    }
+
+    @media(max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+      img {
+        height: 200px;
+      }
+      nav {
+        margin: 16px auto;
+      }
+    }
+  }
+</style>
+<header id="main-header">
+  <img src="/public/images/bird-logo.png" alt="Logo">
+  <nav>
+    <a href="/">Home</a>
+    <a href="/stories/">Stories</a>
+    </nav>
+</header>
+    <main>
+        
+<style>
+  .story-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+  }
+  a {
+    text-decoration: none;
+    color: var(--main-text-color);
+    width: 100%;
+  }
+  h2 {
+    margin: 0;
+  }
+  p {
+    margin: 0;
+    font-size: 1rem;
+    color: var(--secondary-text-color);
+  }
+  li {
+    margin-bottom: 32px;
+  }
+
+</style>
+<ul class="story-list">
+  
+    <li>
+      <a href="/stories/A-Tina-Story/">
+        
+          <img src="/images/mysterious-key-cover.png" alt="A Tina Story Cover" style="max-width: 200px; height: auto;">
+        
+        <h2>A Tina Story</h2>
+        <p class="read-more">Read More</p>
+      </a>
+    </li>
+  
+    <li>
+      <a href="/stories/next-story/">
+        
+          <img src="/images/mysterious-key-cover.png" alt="Window Cover" style="max-width: 200px; height: auto;">
+        
+        <h2>Window</h2>
+        <p class="read-more">Read More</p>
+      </a>
+    </li>
+  
+    <li>
+      <a href="/stories/whispers/">
+        
+          <img src="/images/RatCover.png" alt="Whispers in the Wind Cover" style="max-width: 200px; height: auto;">
+        
+        <h2>Whispers in the Wind</h2>
+        <p class="read-more">Read More</p>
+      </a>
+    </li>
+  
+    <li>
+      <a href="/stories/the-key/">
+        
+          <img src="/images/mysterious-key-cover.png" alt="The Mysterious Key Cover" style="max-width: 200px; height: auto;">
+        
+        <h2>The Mysterious Key</h2>
+        <p class="read-more">Read More</p>
+      </a>
+    </li>
+  
+</ul>
+
+    </main>
+    <style>
+    #footer {
+      text-align: center;
+      margin-top: 48px;
+      font-size: 1rem;
+      color: var(--secondary-text-color);
+    }
+</style>
+<footer id="footer">
+    <p>&copy; 2025 Cody Loyd</p>
+</footer>
+</body>
+</html>

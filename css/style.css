@@ -1,0 +1,44 @@
+/* @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=League+Spartan:wght@100..900&display=swap');
+
+:root {
+    --main-bg-color: #ffffff;
+    --main-text-color: #272727;
+    --secondary-text-color: #4f4f4f;
+    --white: #000000;
+    --border-color: #c4c4c4;
+    --main-text-theme-color: #8c2f2f;
+    --main-font: 'EB Garamond', 'serif';
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-bg-color: #151515;
+    --main-text-color: #e4e1dd;
+    --secondary-text-color: #acabab;
+    --white: #ffffff;
+    --border-color: #999999;
+    --main-text-theme-color: #f7768e;
+    --main-font: 'EB Garamond', 'serif';
+  }
+}
+
+body {
+  background: var(--main-bg-color);
+  color: var(--main-text-color);
+  font-family: var(--main-font);
+  font-size: 1.4rem;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+a {
+  color: var(--main-text-theme-color);
+}

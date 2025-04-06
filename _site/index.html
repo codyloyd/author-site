@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cody Loyd</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <style>
+  #main-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 800px;
+
+    img {
+      height: 300px;
+    }
+    /* Dark mode */
+    @media (prefers-color-scheme: dark) {
+      img {
+        filter: invert(90%);
+      }
+    }
+
+    nav {
+      display: flex;
+      gap: 20px;
+      margin-left: auto;
+      padding-right: 32px;
+    }
+
+    nav a {
+      text-decoration: none;
+      font-size: 1.5rem;
+      color: var(--main-text-color)l;
+    }
+
+    nav a:hover {
+      color: var(--main-text-theme-color)
+    }
+
+    @media(max-width: 768px) {
+      flex-direction: column;
+      align-items: center;
+      img {
+        height: 200px;
+      }
+      nav {
+        margin: 16px auto;
+      }
+    }
+  }
+</style>
+<header id="main-header">
+  <img src="/public/images/bird-logo.png" alt="Logo">
+  <nav>
+    <a href="/">Home</a>
+    <a href="/stories/">Stories</a>
+    </nav>
+</header>
+    <main>
+        <h1>Hello, World!</h1>
+<p>testing is the homepage of my new Eleventy blog.</p>
+
+    </main>
+    <style>
+    #footer {
+      text-align: center;
+      margin-top: 48px;
+      font-size: 1rem;
+      color: var(--secondary-text-color);
+    }
+</style>
+<footer id="footer">
+    <p>&copy; 2025 Cody Loyd</p>
+</footer>
+</body>
+</html>

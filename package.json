@@ -1,0 +1,22 @@
+{
+  "name": "author-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve",
+    "debug": "DEBUG=* npx @11ty/eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@tinacms/cli": "^1.9.3"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "tinacms": "^2.7.3"
+  }
+}
