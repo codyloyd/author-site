@@ -3,42 +3,29 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main
-  pull_request:
+      - main # or master
 
 jobs:
-  deploy:
-    runs-on: ubuntu-22.04
-    permissions:
-      contents: write
-    concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
+  build-and-deploy:
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout 🛎️
+        uses: actions/checkout@v3
 
-      - name: Setup Node
+      - name: Set up Node.js ⚙️
         uses: actions/setup-node@v3
         with:
-          node-version: "18"
+          node-version: '18' # Or your preferred Node.js version
 
-      - name: Persist npm cache
-        uses: actions/cache@v3
+      - name: Install dependencies 🔧
+        run: npm ci # or yarn install or pnpm install
+
+      - name: Build the site 🛠️
+        run: npm run build
+
+      - name: Deploy to GitHub Pages 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          path: ~/.npm
-          key: ${{ runner.os }}-node-${{ hashFiles('**/package.json') }}
-
-      - name: Persist Eleventy .cache
-        uses: actions/cache@v3
-        with:
-          path: ./.cache
-          key: ${{ runner.os }}-eleventy-fetch-cache
-
-      - run: npm install
-      - run: npm run build-ghpages
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main'
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+          folder: _site # The folder where Eleventy outputs your site
+          branch: gh-pages # The branch to deploy to
+          clean: true # Automatically remove deleted files from the deploy
