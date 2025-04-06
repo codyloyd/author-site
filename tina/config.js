@@ -67,6 +67,11 @@ export default defineConfig({
             description: "Image for the story",
           },
           {
+            name: "description",
+            label: "Description",
+            type: "rich-text",
+          },
+          {
             type: "rich-text",
             name: "body",
             label: "Body",
@@ -92,6 +97,21 @@ export default defineConfig({
             name: "body",
             label: "Body",
             isBody: true,
+          },
+          {
+            name: "layout",
+            label: "Layout",
+            type: "string",
+            options: [
+              { label: "Default", value: "default.html" },
+              { label: "Story", value: "story.html" },
+            ]
+          },
+          {
+            name: "permalink",
+            label: "Permalink",
+            type: "string",
+            description: "URL path for the page (e.g., /about)",
           },
         ],
       },

@@ -1,8 +1,9 @@
 ---
 title: Whispers in the Wind
-date: 2025-04-10
 layout: story.html
-coverImage: /images/RatCover.png
+date: 2025-04-10T00:00:00.000Z
+coverImage: /images/squirrel.png
+description: ''
 ---
 
 The old house stood on the hill...

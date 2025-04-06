@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our Stories</title>
+    <title>Cody Loyd - Stories</title>
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
@@ -55,9 +55,11 @@
   }
 </style>
 <header id="main-header">
-  <img src="/public/images/bird-logo.png" alt="Logo">
+  <a href="/">
+    <img src="/public/images/bird-logo.png" alt="Logo">
+  </a>
   <nav>
-    <a href="/">Home</a>
+    <a href="/rat/">Rat</a>
     <a href="/stories/">Stories</a>
     </nav>
 </header>
@@ -69,65 +71,107 @@
     padding: 0;
     margin: 0 auto;
     width: 100%;
-    max-width: 800px;
+    max-width: 700px;
+    margin-top: 32px;
   }
   a {
     text-decoration: none;
     color: var(--main-text-color);
     width: 100%;
+    display: flex;
+    gap: 16px;
+  }
+  li {
+    margin-bottom: 64px;
   }
   h2 {
     margin: 0;
+    font-weight: 200;
+    font-size: 1.8rem;
+  }
+  ul img {
+    max-width: 400px;
+    border: var(--main-text-color) 8px solid;
   }
   p {
     margin: 0;
     font-size: 1rem;
     color: var(--secondary-text-color);
   }
-  li {
-    margin-bottom: 32px;
+  .preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
-
+  .read-more {
+    font-size: 1rem;
+    color: var(--main-text-theme-color);
+    margin-top: 8px;
+  }
+  a:hover .read-more {
+    text-decoration: underline;
+  }
 </style>
 <ul class="story-list">
   
     <li>
-      <a href="/stories/A-Tina-Story/">
+      <a href="/stories/next-story/">
         
-          <img src="/images/mysterious-key-cover.png" alt="A Tina Story Cover" style="max-width: 200px; height: auto;">
+          <img src="/images/mysterious-key-cover.png" alt="Window Cover">
         
-        <h2>A Tina Story</h2>
-        <p class="read-more">Read More</p>
+        <div class="preview">
+          <h2>Window</h2>
+          <p class="story-preview">
+            Erica, just calm down for a second! The wood-paneled walls still reverberated with Erica’s scream. Chris could feel the shaking sinking-gut feeling that hit him when he heard her beginning to fade. He stood at the window gesturing at the...
+          </p>
+          <p class="read-more">Read Story</p>
+        </div>
       </a>
     </li>
   
     <li>
-      <a href="/stories/next-story/">
+      <a href="/stories/A-Tina-Story/">
         
-          <img src="/images/mysterious-key-cover.png" alt="Window Cover" style="max-width: 200px; height: auto;">
+          <img src="/images/codyloyd_1960s_newspaper_comic_a_messy_childs_bedroom_--v_6.1_8a7d4f4c-9b63-4c68-baaa-3618208d425d_1.png" alt="URE, DRACO Cover">
         
-        <h2>Window</h2>
-        <p class="read-more">Read More</p>
+        <div class="preview">
+          <h2>URE, DRACO</h2>
+          <p class="story-preview">
+            A blind man on the back of a dragon.  What could go wrong?
+
+          </p>
+          <p class="read-more">Read Story</p>
+        </div>
       </a>
     </li>
   
     <li>
       <a href="/stories/whispers/">
         
-          <img src="/images/RatCover.png" alt="Whispers in the Wind Cover" style="max-width: 200px; height: auto;">
+          <img src="/images/squirrel.png" alt="Whispers in the Wind Cover">
         
-        <h2>Whispers in the Wind</h2>
-        <p class="read-more">Read More</p>
+        <div class="preview">
+          <h2>Whispers in the Wind</h2>
+          <p class="story-preview">
+            The old house stood on the hill... ...a chilling tale unfolds.
+          </p>
+          <p class="read-more">Read Story</p>
+        </div>
       </a>
     </li>
   
     <li>
       <a href="/stories/the-key/">
         
-          <img src="/images/mysterious-key-cover.png" alt="The Mysterious Key Cover" style="max-width: 200px; height: auto;">
+          <img src="/images/mysterious-key-cover.png" alt="The Mysterious Key Cover">
         
-        <h2>The Mysterious Key</h2>
-        <p class="read-more">Read More</p>
+        <div class="preview">
+          <h2>The Mysterious Key</h2>
+          <p class="story-preview">
+            It was a dark and stormy night... ...the story continues here.
+          </p>
+          <p class="read-more">Read Story</p>
+        </div>
       </a>
     </li>
   

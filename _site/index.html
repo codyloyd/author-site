@@ -55,16 +55,53 @@
   }
 </style>
 <header id="main-header">
-  <img src="/public/images/bird-logo.png" alt="Logo">
+  <a href="/">
+    <img src="/public/images/bird-logo.png" alt="Logo">
+  </a>
   <nav>
-    <a href="/">Home</a>
+    <a href="/rat/">Rat</a>
     <a href="/stories/">Stories</a>
     </nav>
 </header>
     <main>
-        <h1>Hello, World!</h1>
-<p>testing is the homepage of my new Eleventy blog.</p>
+        
+<style>
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    gap: 8px;
+  }
 
+  .container img {
+    display: block;
+    flex: 1;
+    max-width: 400px
+  }
+
+  .container p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: var(--text-color);
+  }
+</style>
+
+<div class="container">
+<div>
+  <p>
+  I am an American author of Horror and Fantasy. When I’m not busy reading and writing, I value spending quality time with my wife and four children, playing and writing music, birdwatching, and way too many other hobbies.
+  </p>
+  <p>
+  I’ve written several short stories (which you can find here, for free!) and two novels, which are currently being edited and prepared for publication.
+  </p>
+  
+  <p>
+  You’re welcome to contact me at contact(at)codyloyd(dot)com.
+  </p>
+</div>
+<img src="/images/headshot.png" alt="Cody Loyd headshot">
+</div>
     </main>
     <style>
     #footer {

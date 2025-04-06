@@ -1,11 +1,12 @@
 const {format} = require('date-fns');
+const { parse } = require('node-html-parser');
 
 // .eleventy.js
 module.exports = function(eleventyConfig) {
   // Pass through static assets
   eleventyConfig.addPassthroughCopy("css");
-  eleventyConfig.addPassthroughCopy("images")
   eleventyConfig.addPassthroughCopy("public")
+  eleventyConfig.addPassthroughCopy({"public/images": "/images"})
 
   eleventyConfig.addCollection("stories", function(collectionApi) {
     return collectionApi.getFilteredByGlob("./stories/*.md").sort((a, b) => {
@@ -36,6 +37,23 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("readableDate", (dateObj) => {
     return format(dateObj, 'MMMM d, yyyy'); // You can customize the date format
   });  
+
+  eleventyConfig.addFilter("getFirstWords", (content, description) => {
+    const wordCount = 40; // Number of words to extract
+    if (description) {
+      return description;
+    }
+    try {
+      const parsed = parse(content);
+      const textContent = parsed.textContent; // Get the text content of the entire HTML
+      const words = textContent.trim().split(/\s+/); // Split by whitespace (including newlines)
+      const previewWords = words.slice(0, wordCount).join(' '); // Get the first 'wordCount' words
+      return previewWords + (words.length > wordCount ? '...' : ''); // Add "..." if truncated
+    } catch (error) {
+      console.error("Error parsing HTML or extracting words:", error);
+      return '';
+    }
+  });
 
   return {
     dir: {

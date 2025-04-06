@@ -1,5 +1,5 @@
 ---
-title: Our Stories
+title: Cody Loyd - Stories
 layout: base.html
 permalink: /stories/
 ---
@@ -10,35 +10,61 @@ permalink: /stories/
     padding: 0;
     margin: 0 auto;
     width: 100%;
-    max-width: 800px;
+    max-width: 700px;
+    margin-top: 32px;
   }
   a {
     text-decoration: none;
     color: var(--main-text-color);
     width: 100%;
+    display: flex;
+    gap: 16px;
+  }
+  li {
+    margin-bottom: 64px;
   }
   h2 {
     margin: 0;
+    font-weight: 200;
+    font-size: 1.8rem;
+  }
+  ul img {
+    max-width: 400px;
+    border: var(--main-text-color) 8px solid;
   }
   p {
     margin: 0;
     font-size: 1rem;
     color: var(--secondary-text-color);
   }
-  li {
-    margin-bottom: 32px;
+  .preview {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
-
+  .read-more {
+    font-size: 1rem;
+    color: var(--main-text-theme-color);
+    margin-top: 8px;
+  }
+  a:hover .read-more {
+    text-decoration: underline;
+  }
 </style>
 <ul class="story-list">
   {% for story in collections.stories %}
     <li>
       <a href="{{ story.url }}">
         {% if story.data.coverImage %}
-          <img src="{{ story.data.coverImage }}" alt="{{ story.data.title }} Cover" style="max-width: 200px; height: auto;">
+          <img src="{{ story.data.coverImage }}" alt="{{ story.data.title }} Cover">
         {% endif %}
-        <h2>{{ story.data.title }}</h2>
-        <p class="read-more">Read More</p>
+        <div class="preview">
+          <h2>{{ story.data.title }}</h2>
+          <p class="story-preview">
+            {{ story.templateContent | getFirstWords: story.data.description }}
+          </p>
+          <p class="read-more">Read Story</p>
+        </div>
       </a>
     </li>
   {% endfor %}
