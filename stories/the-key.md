@@ -1,10 +1,10 @@
 ---
 title: The Mysterious Key
-date: 2025-04-05
-layout: story.html  # We'll create this layout later
+layout: story.html
+date: 2025-04-05T00:00:00.000Z
 coverImage: /images/mysterious-key-cover.png
+description: |
+  TESTING
 ---
 
-It was a dark and stormy night...
-
-...the story continues here.
+testing the turnaround on changes made locally
