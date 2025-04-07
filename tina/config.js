@@ -45,6 +45,10 @@ export default defineConfig({
             name: "layout",
             label: "Layout",
             type: "string",
+            defaultItem: {
+              label: "Story",
+              value: "story.html",
+            },
             options: [
               { label: "Default", value: "default.html" },
               { label: "Story", value: "story.html" },
@@ -54,6 +58,7 @@ export default defineConfig({
             name: 'date',
             label: 'Date',
             type: 'datetime',
+            defaultItem: new Date().toISOString(),
           },
           {
             name: "pinOrder",
