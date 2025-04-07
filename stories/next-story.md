@@ -2,8 +2,8 @@
 title: Window
 layout: story.html
 date: 2025-04-05T00:00:00.000Z
-pinOrder: 1
-coverImage: /images/mysterious-key-cover.png
+coverImage: /images/window.png
+description: ''
 ---
 
 *Erica, just calm down for a second!*
