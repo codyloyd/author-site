@@ -1,10 +1,10 @@
 ---
-title: The Mysterious Key
+title: The Mysterious Keyyyy
 layout: story.html
 date: 2025-04-05T00:00:00.000Z
 coverImage: /images/mysterious-key-cover.png
 description: |
-  TESTING (part 3)
+  TESTING (part 4)
 ---
 
 testing the turnaround on changes made locally
