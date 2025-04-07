@@ -41,7 +41,7 @@ jobs:
       #     TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
       #   run: npx tinacms build
 
-      - run: npm run build 🔨
+      - run: npm run build
 
       - name: Create CNAME file
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
