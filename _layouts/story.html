@@ -20,7 +20,7 @@
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="{{ title }}">
     {% if description %}
-      <meta name="twitter:description" content="{{ metaDescription }}">
+      <meta name="twitter:description" content="{{ description }}">
     {% else %}
       <meta name="twitter:description" content="Read some stories!">
     {% endif %}
@@ -55,6 +55,12 @@
             font-style: italic;
             color: var(--secondary-text-color);
             margin-bottom: 20px;
+        }
+        .story-content {
+            font-family: var(--story-font);
+            font-size: 1.2rem;
+            font-weight: 300;
+            line-height: 1.6;
         }
         @media screen and (max-width: 768px) {
             main {

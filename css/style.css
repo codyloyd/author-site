@@ -1,5 +1,9 @@
-/* @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=League+Spartan:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+@font-face {
+  font-family: 'Bookerly';
+  src: url('./Bookerly\ Light.ttf');
+}
 
 :root {
     --main-bg-color: #ffffff;
@@ -9,6 +13,8 @@
     --border-color: #c4c4c4;
     --main-text-theme-color: #8c2f2f;
     --main-font: 'EB Garamond', 'serif';
+    --story-font: 'Bookerly', 'serif';
+    --heading-font: 'EB Garamond', 'serif';
 }
 
 /* Dark Mode */
@@ -20,7 +26,6 @@
     --white: #ffffff;
     --border-color: #999999;
     --main-text-theme-color: #f7768e;
-    --main-font: 'EB Garamond', 'serif';
   }
 }
 
