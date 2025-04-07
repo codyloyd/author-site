@@ -11,11 +11,11 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{ page.url | url }}">
     {% if metaDescription %}
-      <meta property="og:description" content="{{ metaDescription }}">
+      <meta property="og:description" content="{{ description }}">
     {% else %}
       <meta property="og:description" content="Read some stories!">
     {% endif %}
-    <meta property="og:image" content="/images/bird-logo.png"> <meta property="og:locale" content="en_US">
+    <meta property="og:image" content="{{ coverImage }}"> <meta property="og:locale" content="en_US">
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="{{ title }}">
@@ -24,7 +24,7 @@
     {% else %}
       <meta name="twitter:description" content="Read some stories!">
     {% endif %}
-    <meta name="twitter:image" content="/images/bird-logo.png"> <meta name="twitter:site" content="@your_twitter_handle">
+    <meta name="twitter:image" content="{{ coverImage }}"> <meta name="twitter:site" content="@your_twitter_handle">
     <style>
         /* can do custom styles here to keep things scoped */
         main {
