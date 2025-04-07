@@ -36,21 +36,27 @@ jobs:
       - run: npm install
       - run: npm run build
 
+      - name: Create CNAME file
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          echo "author.codyloyd.com" > ./_site/CNAME
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
-          force_orphan: true # Crucial for a clean deployment
-          enable_jekyll: false # Important for Eleventy sites
+          force_orphan: true
+          enable_jekyll: false
 
-      - name: Set up custom domain
+      - name: Configure Git for CNAME commit
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         run: |
-          echo "author.codyloyd.com" > ./_site/CNAME
           cd ./_site
           git init
+          git config --global user.email "codyloyd@gmail.com"
+          git config --global user.name "codyloyd"
           git add CNAME
           git commit -m "Add CNAME"
           git push -f origin gh-pages
