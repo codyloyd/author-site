@@ -50,6 +50,24 @@ permalink: /stories/
   a:hover .read-more {
     text-decoration: underline;
   }
+  @media screen and (max-width: 768px) {
+    .story-list a {
+      box-sizing: border-box;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      max-width: 400px;
+      padding: 16px;
+      margin: 0 auto;
+    }
+    .story-list img {
+      width: 100%;
+      height: auto;
+    }
+    .story-list h2 {
+      display: none;
+    }
+  }
 </style>
 <ul class="story-list">
   {% for story in collections.stories %}

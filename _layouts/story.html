@@ -9,6 +9,7 @@
         /* can do custom styles here to keep things scoped */
         main {
             width: 100%;
+            box-sizing: border-box;
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
@@ -34,6 +35,18 @@
             font-style: italic;
             color: var(--secondary-text-color);
             margin-bottom: 20px;
+        }
+        @media screen and (max-width: 768px) {
+            main {
+                font-size: 1.2rem;
+            }
+            article img {
+                max-width: 400px;
+                height: auto;
+            }
+            .story-content {
+                padding: 8px;
+            }
         }
     </style>
 </head>

@@ -11,8 +11,8 @@ permalink: /rat.html
   }
   article img {
     display: block;
-    width: auto;
-    max-height: 400px;
+    width: 100%;
+    max-width: 500px;
     margin: 20px auto;
   }
   article p {
@@ -20,6 +20,15 @@ permalink: /rat.html
     line-height: 1.5;
     color: var(--main-text-color);
     margin-bottom: 16px;
+  }
+  @media screen and (max-width: 768px) {
+    article {
+      padding: 0px;
+    }
+    article p {
+      font-size: 1.2rem;
+    }
+    
   }
 </style>
 <article>
