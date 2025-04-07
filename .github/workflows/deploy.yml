@@ -14,21 +14,15 @@ jobs:
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
-      - name: Clean workspace
-        run: |
-          rm -rf *
-      
-      - name: Checkout 🛎️
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Set up Node.js ⚙️
+      - name: Set up Node
         uses: actions/setup-node@v3
         with:
-          node-version: '18'
+          node-version: "18"
 
       - name: Persist npm cache
         uses: actions/cache@v3
-
         with:
           path: ~/.npm
           key: ${{ runner.os }}-node-${{ hashFiles('**/package.json') }}
@@ -42,11 +36,21 @@ jobs:
       - run: npm install
       - run: npm run build
 
-      - name: Upload artifact 🚀
-        uses: actions/upload-pages-artifact@v2
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        if: github.ref == 'refs/heads/main'
         with:
-          path: ./_site
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          force_orphan: true # Crucial for a clean deployment
+          enable_jekyll: false # Important for Eleventy sites
 
-      - name: Deploy to GitHub Pages 🚢
-        id: deployment
-        uses: actions/deploy-pages@v2
+      - name: Set up custom domain
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        run: |
+          echo "author.codyloyd.com" > ./_site/CNAME
+          cd ./_site
+          git init
+          git add CNAME
+          git commit -m "Add CNAME"
+          git push -f origin gh-pages
