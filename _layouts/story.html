@@ -5,6 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cody Loyd - {{ title }}</title>
     <link rel="stylesheet" href="/css/style.css">
+
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:site_name" content="Website for Author Cody Loyd">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ page.url | url }}">
+    {% if metaDescription %}
+      <meta property="og:description" content="{{ metaDescription }}">
+    {% else %}
+      <meta property="og:description" content="Read some stories!">
+    {% endif %}
+    <meta property="og:image" content="/images/bird-logo.png"> <meta property="og:locale" content="en_US">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ title }}">
+    {% if metaDescription %}
+      <meta name="twitter:description" content="{{ metaDescription }}">
+    {% else %}
+      <meta name="twitter:description" content="Read some stories!">
+    {% endif %}
+    <meta name="twitter:image" content="/images/bird-logo.png"> <meta name="twitter:site" content="@your_twitter_handle">
     <style>
         /* can do custom styles here to keep things scoped */
         main {
