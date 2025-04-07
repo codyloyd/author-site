@@ -39,11 +39,11 @@ jobs:
       - run: npm run build
 
       - name: Upload artifact 🚀
-        uses: actions/upload-pages-artifact@v2
+        # uses: actions/upload-pages-artifact@v2
 
-        with:
-          path: ./_site
+        # with:
+        #   path: ./_site
 
-      # - name: Deploy to GitHub Pages 🚢
-      #   id: deployment
-      #   uses: actions/deploy-pages@v2
+      - name: Deploy to GitHub Pages 🚢
+        id: deployment
+        uses: actions/deploy-pages@v2
