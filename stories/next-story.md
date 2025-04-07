@@ -1,7 +1,7 @@
 ---
 title: Window
 layout: story.html
-date: 2025-04-05T00:00:00.000Z
+date: 2022-04-15T05:00:00.000Z
 coverImage: /images/window.png
 description: ''
 ---

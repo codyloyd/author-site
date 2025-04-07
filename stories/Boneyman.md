@@ -1,7 +1,7 @@
 ---
 title: Boneyman
 layout: story.html
-date: 2024-07-03T05:00:00.000Z
+date: 2022-08-23T05:00:00.000Z
 coverImage: /images/boneyman.png
 description: |
   What's in the bag, Terry? What's in the bag???
@@ -13,7 +13,7 @@ At the sound of the bells on the door, everyone in the diner turned to look at h
 
 Terry let his gaze drop down to the bag, and then back to his host. He raised an eyebrow and gently cocked his head. It was a carefully calculated expression, just barely there. The host’s scowl deepened.
 
-“Okay, asshole,” he said. “Boss! Our old friend Terence finally decided to pay us a visit!”
+“Ok, asshole,” he said. “Boss! Our old friend Terence finally decided to pay us a visit!”
 
 Terry didn’t show his annoyance. “Just Terry, actually.”
 
@@ -21,7 +21,7 @@ Terry didn’t show his annoyance. “Just Terry, actually.”
 
 “Nothing.”
 
-From the back of the diner, a lightly accented and too cheerful voice: “Ah, Terence!” A slim man burst through the swinging kitchen doors. He was wearing a much nicer suit than anyone else in the diner, except Terry, maybe. He had a mess of curly black hair, which had been carefully tamed just enough to seem elegant. A large gold ring adorned the little finger of the hand he extended for Terry to shake.
+From the back of the diner, a lightly accented and too cheerful voice, “Ah, Terence!” A slim man burst through the swinging kitchen doors. He was wearing a much nicer suit than anyone else in the diner, except Terry, maybe. He had a mess of curly black hair, which had been carefully tamed just enough to seem elegant. A large gold ring adorned the little finger of the hand he extended for Terry to shake.
 
 Terry took his hand, inclined his head, and leaned into his smile a bit, letting it feather the corners of his eyes. “David.”
 
@@ -33,9 +33,9 @@ They sat in awkward silence for a moment, both of them conspicuously ignoring th
 
 David broke first, a hint of annoyance pulling at the corner of his mouth. “I have to admit I was expecting to see your boss this evening.”
 
-Terry’s eyes narrowed slightly, but he did not drop his pleasant smile. He spoke slowly. Clearly. “I do not think that will be necessary.” A pause. “However, it could be arranged if you find it important.”
+Terry’s eyes narrowed slightly, but he did not drop his pleasant smile. He spoke slowly. Clearly. “I do not think that will be necessary.” A pause. “However, it can be arranged if you find it important.”
 
-“I’m inclined to think your boss is trying to send some message by ignoring me, and I have to say, I’m not particularly fond of those implications.”
+“I’m inclined to think your boss is trying to send some message by ignoring me, and I have to say, I’m not particularly fond of the implications of that.”
 
 Terry again inclined his head slightly, maintaining eye contact with the man across the table. A moment passed.
 
@@ -43,9 +43,9 @@ Terry again inclined his head slightly, maintaining eye contact with the man acr
 
 “I have brought you precisely what my employer has requested me to bring.”
 
-One of the men who had been standing around the booth took a half step forward. “Seems like our message got through to him, boss.” He wheezed some sort of cancerous chuckle and stepped back into line. David sneered at the man.
+One of the men who had been standing around the table took a half step forward. “Seems like our message got through to him, boss.” He wheezed some sort of cancerous chuckle and stepped back into line. David sneered at the man.
 
-“My employer,” Terry said, “Did not appreciate the tone of your message.”
+“My employer,” Terry said, “Did not appreciate the tone of the message that was sent.”
 
 Wheezy chuckled again. David’s head turned sharply to the line of men. “Alan. I think there’s something you should be attending to in the back.” His voice was flat and quiet. Wheezy’s face reddened at this. He nodded sharply and disappeared into the kitchen.
 
@@ -53,7 +53,7 @@ David turned back toward Terry. “Excuse my associate, he seems to have some fu
 
 “I do know,” Terry said. “You and your associates are willing, then, to set yourselves up as our… protectors.”
 
-“We know you might find it distasteful, Terence.”
+“We know you might find it distasteful Terence.”
 
 “My name is not Terence.”
 
@@ -85,7 +85,7 @@ Terry ignored them. “Interesting, sir, that you would take such offense at wha
 
 “The bag, asshole.”
 
-“I said, earlier…” Terry lifted his hands slightly and edged out of the booth with slow, smooth motions. He bent toward the bag on the floor. “I said that if you wanted to meet with my employer, we could arrange it.”
+“I said, earlier…” Terry lifted his hands slightly and edged out of the booth with slow, smooth motions. He bent toward the bag on the floor. “I said that if you wanted to meet with my employer, that we could arrange it.”
 
 Everyone in the diner leaned forward as Terry slowly reached down and unzipped the bag. He lifted his head and held out his empty hands as if he were doing a magic trick then upturned the bag spilling its contents onto the floor.
 
@@ -101,7 +101,7 @@ David looked at Terry, then down to the floor. Bones. Human ones, and old. Ivory
 
 “That was the implication, yes,” Terry said.
 
-David sighed, loudly. “Okay. Enough bullshit then. I don’t care if this is some kind of prank, or if you’re just batshit crazy. Doesn’t matter. We’re done.” David turned to leave. “Terry’s got a lesson to learn here, boys.”
+David sighed, loudly. “OK. Enough bullshit then. I don’t care if this is some kind of prank, or if you’re just batshit crazy. Doesn’t matter. We’re done.” David turned to leave. “Terry’s got a lesson to learn here, boys.”
 
 One of the men stepped forward and placed his hand on Terry’s shoulder. The man that had greeted him when he entered. “Let’s head out back and have ourselves a little chat, Terrence.”
 
@@ -125,7 +125,7 @@ It was only about half-formed when the wisest of the henchmen decided to try to 
 
 A skeletal hand shot across the room, connected to the still forming specter by a stretched thread of the black goo. The hand hit the runner hard on the back of the neck and pulled him back to the center of the group.
 
-The skull was pulled up, setting itself on the figure’s tall shoulders. It stood a head taller than everyone else in the room, an imposing skeletal figure robed in undulating tendrils of viscous darkness. It held the limp body of the man it had caught and scanned the room. Its gaze landed on Terry.
+The skull was pulled up, setting itself on the figure’s tall shoulders. It stood something like a head taller than everyone else in the room, an imposing skeletal figure robed in undulating tendrils of viscous darkness. It held the limp body of the man it had caught and scanned the room. Its gaze landed on Terry.
 
 It spoke. “Evening, Terentius.”
 
@@ -141,7 +141,7 @@ The skeleton shook its head. “Dumbasses.” A wet crunching sound. The runner�
 
 The man’s fall seemed, finally, to snap the rest of the idiot crowd out of their drooling slack-jawed awe. Gunfire erupted from all sides, filling the room with a thin haze of blue-gray smoke. Windows shattered. Someone was shot in the crossfire.
 
-Terry shuffled back toward the front of the diner to watch the proceedings, and his boss snapped into a frenzy of violence unperturbed by the gunfire. Things went too fast to really follow what was happening, but Terry had seen it all before. Guns clattered to the floor. Bodies fell. Terry saw a sharp-looking bone puncture out the back of the man that had tried to “take him out back”. Another lost his head, though Terry didn’t see how it was removed.
+Terry shuffled back, toward the front of the diner to watch the proceedings, and his boss snapped into a frenzy of violence unperturbed by the gunfire. Things went too fast to really follow what was happening, but Terry had seen it all before. Guns clattered to the floor. Bodies fell. Terry saw a sharp-looking bone puncture out the back of the man that had tried to “take him out back”. Another lost his head, though Terry didn’t see how it was removed.
 
 It was over in moments. His boss stood at ease amidst the carnage as the gunsmoke swirled and faded.
 
