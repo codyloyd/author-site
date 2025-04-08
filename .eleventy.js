@@ -7,6 +7,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("public")
   eleventyConfig.addPassthroughCopy({"public/images": "/images"})
+  eleventyConfig.addPassthroughCopy({"public/admin": "/admin"});
 
   eleventyConfig.addCollection("stories", function(collectionApi) {
     return collectionApi.getFilteredByGlob("./stories/*.md").sort((a, b) => {
