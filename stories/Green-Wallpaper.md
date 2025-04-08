@@ -4,14 +4,17 @@ layout: story.html
 date: 2023-02-28T06:00:00.000Z
 pinOrder: 2
 coverImage: /images/green-wallpaper.png
-description: ''
+description: >
+  I wake up still pissed about the church lawn.
+
+
+
+  The local boy’s basketball team was going to state, and good for them, but someone had gotten the bright idea to cut a big old bulldog into the church lawn to celebrate. You couldn’t even tell what it was supposed to be, just a big ugly blob.
 ---
 
 I wake up still pissed about the church lawn.
 
 The local boy’s basketball team was going to state, and good for them, but someone had gotten the bright idea to cut a big old bulldog into the church lawn to celebrate. You couldn’t even tell what it was supposed to be, just a big ugly blob.
-
-Donna told me to let it go.
 
 “It’s fine, Charles.”
 
@@ -61,7 +64,7 @@ Nothing.
 
 “Donna!”
 
-I need to get out of here, but I’m afraid of what I might find behind that strange white door on the other side of the room. I \*need\* Donna.  I feel an obnoxious twinge in my chest. Oh, come on now, Charles. Crying isn’t going to help anything. That sounds like something my dad would have said, and I chuckle darkly at that thought.
+I need to get out of here, but I’m afraid of what I might find behind that strange white door on the other side of the room. I *need* Donna.  I feel an obnoxious twinge in my chest. Oh, come on now, Charles. Crying isn’t going to help anything. That sounds like something my dad would have said, and I chuckle darkly at that thought.
 
 Then, the door opens, and my bride steps in. I can’t seem to make my eyes focus on her, but she’s unmistakable; it’s not just her petite build or that shoulder-length blonde hair.  I’d recognize the way she carried herself if she were wearing a bag on her head.
 
@@ -71,11 +74,11 @@ She walks over and sits next to me on the bed, placing a gentle hand on my back.
 
 “You had another seizure,” she says. “You’re ok.  Everything is ok.  You’re usually a little disoriented when you wake up. Let’s just sit here.  Give it a minute.”
 
-“I had a \*what?\*“
+“I had a *what?*“
 
 “It’s OK. You aren’t hurt. It will come back to you in a minute.”
 
-Her voice is just the balm that I need, but she isn’t making any sense. My mind is racing, reeling, trying to put it all together. \*Another\* seizure? I don’t remember ever having a seizure before, and she’s talking to me like it’s a common occurrence.
+Her voice is just the balm that I need, but she isn’t making any sense. My mind is racing, reeling, trying to put it all together. *Another* seizure? I don’t remember ever having a seizure before, and she’s talking to me like it’s a common occurrence.
 
 “Where are we?”
 
@@ -83,15 +86,15 @@ Her voice is just the balm that I need, but she isn’t making any sense. My min
 
 I do not wear glasses.
 
-She reaches across me to the bedside table and picks them up anyway, placing them gently on my face, and suddenly I can see my surroundings. It’s the most bizarre-looking hospital room I’ve ever seen. Everything is pale beige and white, all smooth plastic panels, clean, dull shining tile floor, and \*wires.\*  Wires \*everywhere\*.  There are wires coming out of the walls, coming out of the bed, coming out of a cart that’s sitting beside the wall, blinking ominously. There were strange panels scattered around the room, like odd shaped televisions, flashing with numbers and graphs.
+She reaches across me to the bedside table and picks them up anyway, placing them gently on my face, and suddenly I can see my surroundings. It’s the most bizarre-looking hospital room I’ve ever seen. Everything is pale beige and white, all smooth plastic panels, clean, dull shining tile floor, and *wires.*  Wires *everywhere*.  There are wires coming out of the walls, coming out of the bed, coming out of a cart that’s sitting beside the wall, blinking ominously. There were strange panels scattered around the room, like odd shaped televisions, flashing with numbers and graphs.
 
 Donna pats me gently on the shoulder again. “That help?” she asks.
 
-It does \*not\*.  I look at her shaking my head, about to tell her so.
+It does *not*.  I look at her shaking my head, about to tell her so.
 
 But the woman sitting next to me is not my wife. She must see the look on my face because the corner of her mouth pulls down, just like Donna’s would have.
 
-\*“Donna”\* I whisper her name.
+*“Donna”* I whisper her name.
 
 “Oh, Daddy,” she says, and my world begins to spin. I might throw up. She takes her hand off me and scoots away, giving me space. “How far back did you go this time?”
 
@@ -107,7 +110,7 @@ There’s real sadness on her face then, and I’m starting to put together what
 
 “You’re ok.  Everything’s OK. This happens sometimes,” she says. “When you have a seizure, sometimes you wake up, and your head’s in the past.  You forget a few years, but they come back to you. Just gotta give it a few minutes.”
 
-I try to remember.  I remember complaining about the church lawn to Donna.  We had Lasagna for dinner. Lisa is just learning to eat solid food, so we took a few pieces and cut them up real small, and she \*loved\*it.  Smeared red sauce up and down her whole body. Got so messy that Donna had carried her straight to the bathtub, holding her at arm’s length while I cleaned up her little tray.  We laid her down and watched the last half of the Red Skelton show. Then we went to bed in our wood-paneling and green-wallpaper bedroom.
+I try to remember.  I remember complaining about the church lawn to Donna.  We had Lasagna for dinner. Lisa is just learning to eat solid food, so we took a few pieces and cut them up real small, and she *loved* it.  Smeared red sauce up and down her whole body. Got so messy that Donna had carried her straight to the bathtub, holding her at arm’s length while I cleaned up her little tray.  We laid her down and watched the last half of the Red Skelton show. Then we went to bed in our wood-paneling and green-wallpaper bedroom.
 
 I remember it so clearly that I can’t believe what this woman, this not-Donna called Anna, was telling me.  I shake my head gently in disbelief, and she holds out the photograph.  “I was born in 1974.” She says softly. “You don’t remember me.”
 
@@ -135,8 +138,8 @@ She swallows.
 
 “Mom died six years ago.” A tear tracks its way down her cheek.
 
-And \*now\* it starts to come back to me.
+And *now* it starts to come back to me.
 
 I put an arm around Anna’s shoulder and pull her into a soft hug. “I’m sorry, Buggie,” I say.
 
-She makes a soft squeaking sound that lives somewhere between a sob and a laugh. “Daddy,” she says. “You \*do\* remember.”
+She makes a soft squeaking sound that lives somewhere between a sob and a laugh. “Daddy,” she says. “You *do* remember.”
