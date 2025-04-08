@@ -4,7 +4,7 @@ backend:
   branch: main # or master
   auth_type: implicit
   client_id: Ov23liqmrmPTxUmwTqo3
-  site_domain: codyloyd-author-site.netlify.com
+  site_domain: codyloyd-author-site.netlify.app
 
 local_backend: true # Enable the local backend for testing
 
