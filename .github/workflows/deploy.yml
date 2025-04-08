@@ -35,12 +35,6 @@ jobs:
 
       - run: npm install
 
-      - name: Build TinaCMS ️
-        env:
-          TINA_PUBLIC_CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
-          TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
-        run: npx tinacms build
-
       - run: npm run build
 
       - name: Create CNAME file
