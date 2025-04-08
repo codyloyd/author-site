@@ -1,0 +1,27 @@
+backend:
+  name: github
+  repo: codyloyd/author-site
+  branch: main # or master
+  auth_type: implicit
+  client_id: Ov23liqmrmPTxUmwTqo3
+  site_domain: codyloyd-author-site.netlify.app
+
+local_backend: true # Enable the local backend for testing
+
+media_folder: "public/images/" # Where to store media assets
+public_folder: "/images/" # URL prefix for media assets
+
+collections:
+  - name: "stories" # Used in routes, ie.: /admin/collections/stories
+    label: "Stories" # Used in the UI
+    folder: "stories" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., "my-story"
+    fields:
+      - {name: "layout", label: "Layout", widget: "hidden", default: "story.html"}
+      - {name: "title", label: "Title", widget: "string"}
+      - {name: "date", label: "Date", widget: "datetime", default: '{{now}}'}
+      - {name: "coverImage", label: "Cover Image", widget: "image"}
+      - {name: "pinOrder", label: "Pin Order", widget: "number", required: false}
+      - {name: "description", label: "Description", widget: "text", required: false}
+      - {name: "body", label: "Body", widget: "markdown"}
