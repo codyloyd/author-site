@@ -1,5 +1,6 @@
 ---
 title: URE, DRACO
+layout: story.html
 date: 2025-02-21T06:00:00.000Z
 coverImage: /images/Frame 11.png
 description: |
