@@ -30,6 +30,8 @@ permalink: /stories/
   }
   ul img {
     max-width: 400px;
+    width: 400px;
+    height: 400px;
     border: var(--main-text-color) 8px solid;
   }
   p {
@@ -74,7 +76,7 @@ permalink: /stories/
     <li>
       <a href="{{ story.url }}">
         {% if story.data.coverImage %}
-          <img src="{{ story.data.coverImage }}" alt="{{ story.data.title }} Cover">
+          <img src="{{ story.data.coverImage }}" alt="{{ story.data.title }} Cover" loading="lazy">
         {% endif %}
         <div class="preview">
           <h2>{{ story.data.title }}</h2>

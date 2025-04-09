@@ -1,14 +1,20 @@
-const {format} = require('date-fns');
-const { parse } = require('node-html-parser');
+import { format } from 'date-fns';
+import { parse } from 'node-html-parser';
+import { eleventyImageTransformPlugin } from '@11ty/eleventy-img';
 
-// .eleventy.js
-module.exports = function(eleventyConfig) {
+export default function(eleventyConfig) {
   // Pass through static assets
   eleventyConfig.addPassthroughCopy("css");
-  eleventyConfig.addPassthroughCopy("public")
-  eleventyConfig.addPassthroughCopy({"public/favicon": "/favicon"})
-  eleventyConfig.addPassthroughCopy({"public/images": "/images"})
-  eleventyConfig.addPassthroughCopy({"public/admin": "/admin"});
+  eleventyConfig.addPassthroughCopy("public");
+  eleventyConfig.addPassthroughCopy({ "public/favicon": "/favicon" });
+  eleventyConfig.addPassthroughCopy({ "public/images": "/images" });
+  eleventyConfig.addPassthroughCopy({ "public/admin": "/admin" });
+
+  // figure this out later
+  // eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
+  //   // Options for the plugin
+  //   urlPath: "/", // URL path for images
+  // })
 
   eleventyConfig.addCollection("stories", function(collectionApi) {
     return collectionApi.getFilteredByGlob("./stories/*.md").sort((a, b) => {
@@ -38,7 +44,7 @@ module.exports = function(eleventyConfig) {
   // Add the readableDate filter
   eleventyConfig.addFilter("readableDate", (dateObj) => {
     return format(dateObj, 'MMMM d, yyyy'); // You can customize the date format
-  });  
+  });
 
   eleventyConfig.addFilter("getFirstWords", (content, description) => {
     const wordCount = 40; // Number of words to extract
@@ -66,4 +72,4 @@ module.exports = function(eleventyConfig) {
       data: "_data" // Directory for data files
     }
   };
-};
+}
